@@ -4,7 +4,7 @@ import json
 
 #Load config
 with open('config.json', 'r') as config:
-    keys = json.load(config)
+    config = json.load(config)
     token = config['token']
     
 
